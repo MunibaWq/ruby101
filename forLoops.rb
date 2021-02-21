@@ -24,7 +24,6 @@ end
 puts "this is the each/do method"
 
 friends.each do |friend|
-    
     puts friend
 end
 # output:
@@ -58,3 +57,4 @@ end
 # 3
 # 4
 # 5
+
