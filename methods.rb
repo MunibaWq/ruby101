@@ -29,9 +29,20 @@
 
  #multiple parameters
 
- def sayhi(name, age)
+#  def sayhi(name, age)
+#     puts ("Hello #{name}, you are #{age.to_s}")
+#  end
+
+#  sayhi("Muniba", 31)
+
+
+
+#give parameters default values
+
+
+ def sayhi(name = "no name", age=-1)
     puts ("Hello #{name}, you are #{age.to_s}")
  end
 
 
- sayhi("Muniba", 31)
+ sayhi("Muniba")
