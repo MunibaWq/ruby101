@@ -1,4 +1,4 @@
-friends = Array["Kevin", "Karen", "Oscar"]
+# friends = Array["Kevin", "Karen", "Oscar"]
 
 # puts friends
 # OUTPUT:
@@ -27,5 +27,21 @@ friends = Array["Kevin", "Karen", "Oscar"]
 # Karen
 
 # MODIFY ONE OF THE VALUES IN THE ARRAY:
+# friends[0] = "Mike"
+# puts friends[0]
+
+# WHEN YOU DONT KNOW WHAT YOU WANT TO PUT IN THE ARRAY AT THE BEGINNING:
+
+friends = Array.new
+
 friends[0] = "Mike"
-puts friends[0]
+friends[5] = "Holly"
+
+puts friends
+# OUTPUT:
+# Mike
+
+
+
+
+# Holly
