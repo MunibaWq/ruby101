@@ -32,12 +32,12 @@
 
 # WHEN YOU DONT KNOW WHAT YOU WANT TO PUT IN THE ARRAY AT THE BEGINNING:
 
-friends = Array.new
+# friends = Array.new
 
-friends[0] = "Mike"
-friends[5] = "Holly"
+# friends[0] = "Mike"
+# friends[5] = "Holly"
 
-puts friends
+# puts friends
 # OUTPUT:
 # Mike
 
@@ -45,3 +45,15 @@ puts friends
 
 
 # Holly
+
+friends = Array["Kevin", "Karen", "Oscar"]
+
+
+# puts friends.length()
+# puts friends.include?("Karen")
+
+# outputs the array in reverse
+# puts friends.reverse() 
+
+# sorts the array alphabetically
+puts friends.sort()
