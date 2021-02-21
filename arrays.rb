@@ -46,7 +46,7 @@
 
 # Holly
 
-friends = Array["Kevin", "Karen", "Oscar"]
+friends = Array["Kevin", "Karen-C", "Karen-A","Oscar"]
 
 
 # puts friends.length()
