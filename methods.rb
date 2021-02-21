@@ -9,3 +9,9 @@ end
 
 # calling the method
 sayhi
+#OUTPUT:
+# Hello User
+
+puts "top"
+sayhi
+puts "top"
