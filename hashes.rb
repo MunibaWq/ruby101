@@ -18,12 +18,22 @@
 #OUTPUT
 # OR
 
+# states = {
+#     :Pennsylvania => "PA",
+#     "New York" => "NY",
+#     "Oregon" => "OR"
+# }
+
+# puts states[:Pennsylvania]
+#OUTPUT
+# PA
+
 states = {
-    :Pennsylvania => "PA",
+    1 => "PA",
     "New York" => "NY",
     "Oregon" => "OR"
 }
 
-puts states[:Pennsylvania]
+puts states[1]
 #OUTPUT
 # PA
