@@ -1,13 +1,13 @@
 # Building a calculator
 
-# puts "Enter a number:"
-# num1 = gets.chomp()
-# puts "Enter another number:"
-# num2 = gets.chomp()
+puts "Enter a number:"
+num1 = gets.chomp()
+puts "Enter another number:"
+num2 = gets.chomp()
 
-#        puts(num1 +num2)
+       puts(num1 +num2)
 
-# num1 = 2, num2 = 2
+num1 = 2, num2 = 2
 # output: 22
 
 
@@ -16,13 +16,13 @@
 
 # SOLUTION: Convert the strings the user enters into numbers
 
-    #  puts (num1.to_i + num2.to_i)
+     puts (num1.to_i + num2.to_i)
 # converts the strings into integers
 # output: 4
 
 # PROBLEM:  adding together integer and decimal results in integer instead of decimal
 
-#     puts (num1.to_f + num2.to_f)
+    puts (num1.to_f + num2.to_f)
 
 # to make this easier we can also do this instead:
 

@@ -1,43 +1,43 @@
-# friends = Array["Kevin", "Karen", "Oscar"]
+friends = Array["Kevin", "Karen", "Oscar"]
 
-# puts friends
+puts friends
 # OUTPUT:
 # Kevin
 # Karen
 # Oscar
 
 
-# puts friends[0]
+puts friends[0]
 # OUTPUT:
 # Kevin
 
 
 # ACCESSING ARRAY ELEMENTS FROM THE BACK OF THE ARRAY:
 
-# puts friends[-1]
+puts friends[-1]
 #OUTPUT:
 # Oscar
 
 
 # ACCESSING A RANGE OF ELEMENTS FROM AN ARRAY:
 
-# puts friends[0,2]
+puts friends[0,2]
 #OUTPUT:
 # Kevin
 # Karen
 
 # MODIFY ONE OF THE VALUES IN THE ARRAY:
-# friends[0] = "Mike"
-# puts friends[0]
+friends[0] = "Mike"
+puts friends[0]
 
 # WHEN YOU DONT KNOW WHAT YOU WANT TO PUT IN THE ARRAY AT THE BEGINNING:
 
-# friends = Array.new
+friends = Array.new
 
-# friends[0] = "Mike"
-# friends[5] = "Holly"
+friends[0] = "Mike"
+friends[5] = "Holly"
 
-# puts friends
+puts friends
 # OUTPUT:
 # Mike
 

@@ -12,6 +12,12 @@ friends = ["Kevin", "Karen", "Oscar", "Angela", "Andy"]
 for friend in friends
     puts friend
 end
+# output:
+# Kevin
+# Karen
+# Oscar
+# Angela
+# Andy
 
 
 # can also do the same thing above, using another method:
@@ -21,4 +27,34 @@ friends.each do |friend|
     
     puts friend
 end
+# output:
+# Kevin
+# Karen
+# Oscar
+# Angela
+# Andy
 
+
+# loop through a range of numbers:
+
+for index in 0..5
+    puts index
+end
+# output:
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5
+
+6.times do |index|
+    puts index
+end
+# output:
+# 0
+# 1
+# 2
+# 3
+# 4
+# 5

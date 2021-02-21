@@ -2,12 +2,12 @@ index = 1
 
 # a while loop keeps executing as long as its condition is true
 
-# while index <= 5
-#     puts index
-#     # index = index + 1
-#     index += 1
+while index <= 5
+    puts index
+    # index = index + 1
+    index += 1
     
-# end
+end
 
 # OUTPUT:
 # 1

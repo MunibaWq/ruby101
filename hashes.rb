@@ -4,27 +4,27 @@
 #build a hash that stores state code:
 # map a state to a specific abberviation
 
-# states = {
-#     "Pennsylvania" => "PA",
-#     "New York" => "NY",
-#     "Oregon" => "OR"
-# }
+states = {
+    "Pennsylvania" => "PA",
+    "New York" => "NY",
+    "Oregon" => "OR"
+}
 
-# puts states
+puts states
 #OUTPUT:
 # {"Pennsylvania"=>"PA", "New York"=>"NY", "Oregon"=>"OR"}
 
-# puts states["Oregon"]
+puts states["Oregon"]
 #OUTPUT
 # OR
 
-# states = {
-#     :Pennsylvania => "PA",
-#     "New York" => "NY",
-#     "Oregon" => "OR"
-# }
+states = {
+    :Pennsylvania => "PA",
+    "New York" => "NY",
+    "Oregon" => "OR"
+}
 
-# puts states[:Pennsylvania]
+puts states[:Pennsylvania]
 #OUTPUT
 # PA
 

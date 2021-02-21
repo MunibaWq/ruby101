@@ -1,13 +1,15 @@
-# secret_word = "giraffe"
-# guess = ""
+secret_word = "giraffe"
+guess = ""
 
-# while guess != secret_word
-#     puts "Enter your guess:"
-#     guess = gets.chomp()
-# end
+while guess != secret_word
+    puts "Enter your guess:"
+    guess = gets.chomp()
+end
 
-# puts "You Won!"
+puts "You Won!"
 
+
+# game 2:
 secret_word = "giraffe"
 guess = ""
 guess_count = 0

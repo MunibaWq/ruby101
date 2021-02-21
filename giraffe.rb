@@ -13,23 +13,23 @@
 
 # user input in ruby - need to type "ruby giraffe.rb" in command line to get output
 
-# puts "Enter your name: "
-# name = gets
-# puts ("Hello " + name ) 
+puts "Enter your name: "
+name = gets
+puts ("Hello " + name ) 
 
 # gets newline character when you do this"
 
-# puts "Enter your name: "
-# name = gets
-# puts ("Hello " + name + ", you are cool!" ) 
+puts "Enter your name: "
+name = gets
+puts ("Hello " + name + ", you are cool!" ) 
 # output: 
 # Hello m
 # , you are cool!
 
 #get rid of newline charater above by doing this:
-# puts "Enter your name: "
-# name = gets.chomp()
-# puts ("Hello " + name + ", you are cool!" ) 
+puts "Enter your name: "
+name = gets.chomp()
+puts ("Hello " + name + ", you are cool!" ) 
 # output: Hello m, you are cool!
 
 puts "Enter your name: "

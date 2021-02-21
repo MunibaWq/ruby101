@@ -1,23 +1,19 @@
 # create a cube function
 
-# def cube(num)
-   
-#     return num*num*num
-   
-# end
+def cube(num)
+    return num*num*num
+end
 
-# puts cube(2)
+puts cube(2)
 
 # OUTPUT:
 # 8
 
-# def cube(num)
-   
-#     return num*num*num, 70
-   
-# end
+def cube(num)
+    return num*num*num, 70
+end
 
-# puts cube(2)
+puts cube(2)
 
 # OUTPUT:
 # 8
