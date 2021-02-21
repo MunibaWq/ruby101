@@ -31,3 +31,9 @@ end
 file = File.open("word.txt", "r")
 puts file.read
 file.close()
+
+
+#reading another rb file:
+require './arrays.rb'
+arr = Array.new
+puts arr
