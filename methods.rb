@@ -17,7 +17,7 @@
 # sayhi
 # puts "top"
 
-#give methods information - accepts a parameter as an input
+# give methods information - accepts a parameter as an input
 
 # def sayhi(name)
 #     puts ("Hello #{name}")
@@ -26,3 +26,12 @@
 
 #  sayhi("Muniba")
 
+
+ #multiple parameters
+
+ def sayhi(name, age)
+    puts ("Hello #{name} #{age}")
+ end
+
+
+ sayhi("Muniba", 31)
